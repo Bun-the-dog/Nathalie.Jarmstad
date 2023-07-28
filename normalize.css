@@ -8,6 +8,18 @@
  * 2. Запретить изменение размера шрифта после изменения ориентации в iOS.
  */
 
+@media (max-width: 767px) {
+  /* Add styles that apply to phone screens */
+  /* For example, adjust font sizes, margins, or layout for smaller screens */
+  body {
+    font-size: 16px; /* Adjust font size for phone screens */
+    margin: 10px; /* Adjust margins for phone screens */
+    /* Add other styles as needed */
+  }
+
+  /* Add other custom styles for phone screens */
+}
+
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
