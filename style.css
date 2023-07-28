@@ -7,7 +7,7 @@ body {
   justify-content: center;
   align-items: center;
   /*background-attachment: fixed;*/
-  background: radial-gradient(circle, #000000, #0065F1);
+  background: radial-gradient(circle, #ffffff, #0065F1);
 }
 
 .header {
