@@ -12,6 +12,7 @@ body {
 
 .header {
   margin: 40px 0;
+  margin-left: 20px;
 }
 
 .header__avatar {
@@ -20,7 +21,7 @@ body {
 
 .header__title {
   margin: 30px 0 10px 0;
-  margin-left: 40px;
+  margin-left: 50px;
   font-size: 32px;
   line-height: 1.2;
   font-family: "Helvetica Neue";
@@ -31,7 +32,7 @@ body {
   font-size: 16px;
   line-height: 1.4;
   margin: 0;
-  margin-left: 20px;
+  margin-left: 30px;
 }
 
 .links {
@@ -83,10 +84,10 @@ body {
   border-bottom: none;
 }
 
-.linsk__link,
+.links__link,
 .links__link:visited {
   text-decoration: none;
-  color: #e0892b;
+  color: #1c2e4a;
 }
 
 .links__title {
@@ -109,19 +110,19 @@ footer {
   background: linear-gradient( #007bff, #ffffff, #007bff);
   border-radius: 20px;
   border: none;
-  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.4); /* Add a subtle box-shadow for the 3D effect */
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.6); /* Add a subtle box-shadow for the 3D effect */
   transition: box-shadow 0.3s ease;
 
   font-size: 14px;
   line-height: 1.4;
 
-  color: #000000;
+  color: #13265C;
   text-decoration: none;
 }
 .button-link:hover {
-  color: whitesmoke;
-  text-shadow: -1px 1px 1px #333;
-  background: linear-gradient(#ffffff, #007bff, #ffffff); /* White to Blue gradient with centering */
+ 
+
+  
   background-position: 100%; /* Center the gradient horizontally on hover */
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Increase the box-shadow on hover */
 }
