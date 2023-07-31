@@ -94,6 +94,13 @@ body {
   margin: 0;
   min-width: 100px;
 }
+.TextAlignCenter{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+
+
+}
 
 footer {
   margin: 0 0 40px 0;
@@ -120,9 +127,6 @@ footer {
   text-decoration: none;
 }
 .button-link:hover {
- 
-
-  
   background-position: 100%; /* Center the gradient horizontally on hover */
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Increase the box-shadow on hover */
 }
